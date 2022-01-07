@@ -1,0 +1,17 @@
+.App {
+  background-color: #282c34;
+  min-height: 100vh;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-header{
+  text-align: center;
+  letter-spacing: .3em;
+  text-transform: uppercase;
+  font-family: 'josefin sans';
+	font-weight: 700;
+  padding: 1em;
+  font-size: 1.2em;
+  text-shadow: #777 1px 0 10px;
+}

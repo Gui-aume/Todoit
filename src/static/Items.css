@@ -1,0 +1,43 @@
+.Items {
+    display: flex;
+    flex-direction: column;
+}
+.ToggleDone {
+    align-items: center;
+}
+
+.item {
+    display: grid;
+    grid-template-columns: 10fr 1fr 2fr 1fr 1fr;
+    padding: 0.5em;
+}
+.odd {
+    background-color: #232f50;
+}
+.even {
+    background-color: #303952;
+}
+
+.done {
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+    font-size: 0.8em;
+    width: 1.5em;
+    height: 1.5em;
+    box-shadow: 0px 10px 13px -7px #000000, 6px 6px 8px -4px;
+}
+.done:hover {
+    background-color: #BBB;
+    box-shadow: 0px 15px 10px -7px #000000, 6px 6px 8px -4px;
+}
+
+.delete {
+    background: no-repeat 50% 50% url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23676778' d='M12,2C17.53,2 22,6.47 22,12C22,17.53 17.53,22 12,22C6.47,22 2,17.53 2,12C2,6.47 6.47,2 12,2M17,7H14.5L13.5,6H10.5L9.5,7H7V9H17V7M9,18H15A1,1 0 0,0 16,17V10H8V17A1,1 0 0,0 9,18Z'%3E%3C/path%3E%3C/svg%3E");
+    background-size: 2em 2em;
+    border: none;
+    cursor: pointer;
+}
+.delete:hover {
+    background-color: #888;
+}
